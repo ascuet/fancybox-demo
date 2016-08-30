@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fancy Test</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css"  />
+</head>
+<body>
+<h1>Try fancy</h1>
+<a href="about.html" class="iframe">Click here</a>
+
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+    $(".iframe").fancybox({
+        type: 'iframe'
+    });
+});
+</script>
+</body>
+</html>
